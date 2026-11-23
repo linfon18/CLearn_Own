@@ -38,6 +38,14 @@
 - C/C++ 编译环境
 - Linux 学习环境
 
+## 在 Visual Studio 中运行练习
+
+1. 在 Visual Studio 2022 中选择「文件 → 打开 → 文件夹」，打开 `CLearn_Own`。
+2. 等待 CMake 配置完成，在顶部绿色运行按钮旁的启动项目下拉框中选择要运行的 `.exe`。
+3. 按 `Ctrl+F5` 运行，或按 `F5` 开始调试。
+
+每个练习都有自己的 `main()`，并会生成独立的程序。把新的练习放在仓库根目录，使用不同的文件名（不含扩展名）。`.c` / `.C` 按 C17 编译，`.cpp` / `.CPP` 按 C++ 编译。新练习未出现在下拉框时，选择「项目 → 配置缓存」刷新列表。
+
 ## 仓库地址 🌐
 
 [https://github.com/linfon18/CLearn_Own](https://github.com/linfon18/CLearn_Own)
